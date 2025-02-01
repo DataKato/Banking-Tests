@@ -15,7 +15,7 @@ class BankTransactionsTestTest {
 
     @Test
     void deposit() {
-        int RemainingBalance = BT.Withdraw(1000, 300);
+        int RemainingBalance = BT.Deposit(1000, 300);
         assertEquals(1300, RemainingBalance);
     }
 }
