@@ -6,6 +6,6 @@ public class BankTransactions {
     }
 
     public int Deposit(int Balance, int amount){
-        return  (Balance - amount);
+        return  (Balance + amount);
     }
 }
